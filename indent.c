@@ -5,7 +5,7 @@ int main(){
 	int count = 0;												//Counts curly braces
 	int count2 = 0;												//Counts open parenthesis
 	int flag = 0;												//True if ch is inside ''
-	char ch;													//Character being read by getchar()
+	char ch;												//Character being read by getchar()
 	int flag2 = 0;												//True if previous character was space
 	int flag3 = 0;												//True if previous character was tab
 	int flag4 = 0;												//True if ch is inside " "

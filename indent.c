@@ -12,6 +12,11 @@ int main(){
 	int flag5 = 0;												//True if ch is \	
 	
 	while((ch = getchar()) != EOF){
+		if( ch == '#' ){
+			do{
+				printf("%c",ch);
+			}while((ch = getchar()) != '\n');
+		}
 		
 		if( ch == '\n'){
 			continue;
